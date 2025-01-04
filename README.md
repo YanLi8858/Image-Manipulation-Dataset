@@ -1,5 +1,5 @@
 # Image Manipulated Detection Dataset Correction 
- ![Static Badge](https://img.shields.io/badge/python-3.8-blue)
+ ![Static Badge](https://img.shields.io/badge/python-3.7.0-blue)
  ![GitHub last commit](https://img.shields.io/github/last-commit/YanLi8858/Image-Manipulation-Dataset)
  ![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset) 
 
