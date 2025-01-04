@@ -1,4 +1,6 @@
 # Image Manipulated Detection Dataset Correction 
+[[**English version**]](./README.md)  [[**Chinese version**]](./README-zh.md)   ![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset)
+
 ## 1 简介
 CASIAv1 、CASIAv2、COVERAGE、NIST16 作为图像篡改检测的公开数据集，用于训练和测试模型。然而，公开数据集中存在不同情况的问题，本仓库主要解决这些问题，原始数据集CASIAv1 和 CASIAv2来自[[kaggle link]](https://www.kaggle.com/datasets/sophatvathana/casia-dataset?select=CASIA1)，CASIAv1的mask来自[[github]](https://github.com/CauchyComplete/casia1groundtruth)，CASIAv2的mask来自[[github]](https://github.com/CauchyComplete/casia2groundtruth)。
 COVERAGE数据集来自[[github]](https://github.com/wenbihan/coverage)。
