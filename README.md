@@ -1,6 +1,5 @@
 # Image Manipulated Detection Dataset Correction 
-[[**English version**]](./README.md)  [[**Chinese version**]](./README-zh.md)  
-![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset)
+[[**English version**]](./README.md)  [[**Chinese version**]](./README-zh.md)   ![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset)
 
 
 ## 1 Introduction
