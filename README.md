@@ -33,9 +33,12 @@ Run `modify_name_casia2.py` to modify the image file names using the file ".\cas
 - Solution:  
 A total of 17 images need to modify their resolutions . For reference, see [[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections/blob/main/README-zh.md)  
 - Case 3: 
-`Tp_D_NNN_M_B_art00037_nat10103_10108.tif`  
-`Tp_D_NNN_M_N_nat10103_pla10110_10116.tif`  
-`Tp_D_NNN_S_N_nat00042_nat00042_00961.tif` has no mask, and these images can be deleted.  
+
+`[Tp_D_NNN_M_B_art00037_nat10103_10108.tif]`  
+`[Tp_D_NNN_M_N_nat10103_pla10110_10116.tif]`  
+`[Tp_D_NNN_S_N_nat00042_nat00042_00961.tif]` 
+
+3 images without masks, and these images can be deleted.  
 - Note:  
 Real images: 7491, tampered images: 5123 (where 3 images have no mask).  
 The processed dataset can be downloaded from [[Baidu Netdisk]](https://pan.baidu.com/s/1xlGanuW49gQE3hKvDkhulQ?pwd=c8m2),extraction code: c8m2.
