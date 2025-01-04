@@ -53,3 +53,7 @@ The processed dataset can be downloaded  from [Baidu Netdisk](https://pan.baidu.
 Real image: 0, tampered image: 564
 The processed dataset can be downloaded  from 
 [Baidu Netdisk](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w ), extract code:  yx7w .
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YanLi8858/Image-Manipulation-Dataset&type=Date)](https://star-history.com/#YanLi8858/Image-Manipulation-Dataset&Date)
