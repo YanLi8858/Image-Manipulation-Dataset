@@ -20,7 +20,7 @@ COVERAGE数据集来自[[github]](https://github.com/wenbihan/coverage)。
 `Sp_D_NRN_A_sce0011_cha0011_0542.jpg` 没有掩码，删除该图像。
 - 提示：
 真实图像：800，篡改图像：920(921张图片删除1张图片)。
-处理后的数据集，可以从[百度网盘](
+处理后的数据集，可以从[[百度网盘]](
 https://pan.baidu.com/s/1iiIVKMuyNj75b8JFm8IQDA?pwd=pkb7 ) 提取码: pkb7 下载。
 
 
@@ -30,24 +30,24 @@ https://pan.baidu.com/s/1iiIVKMuyNj75b8JFm8IQDA?pwd=pkb7 ) 提取码: pkb7 下�
 运行`modify_name_casia2.py`，通过使用 CASIAv2的mask仓库中的文件".\casia2groundtruth-master\Notes\fileNamesCorrection.xlsx"修改图像文件名称。
 - 情况2：图像文件夹中的".\casia-dataset\CASIAv2\Tp"的部分图像分辨率与对应名称的掩码分辨率不同。
 - 解决方案：
-一共17张图像需要修改分辨率，参考[github](https://github.com/SunnyHaze/IML-Dataset-Corrections/blob/main/README-zh.md)
+一共17张图像需要修改分辨率，参考[[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections/blob/main/README-zh.md)
 - 情况3：
 `Tp_D_NNN_M_B_art00037_nat10103_10108.tif` 
 `Tp_D_NNN_M_N_nat10103_pla10110_10116.tif`
 `Tp_D_NNN_S_N_nat00042_nat00042_00961.tif`没有掩码，可以删除这些图像。
 - 提示：
 真实图像：7491，篡改图像：5123(其中3张图像没有掩码)。
-处理后的数据集，可以从[百度网盘]( https://pan.baidu.com/s/1xlGanuW49gQE3hKvDkhulQ?pwd=c8m2 ) 提取码: c8m2 下载。
+处理后的数据集，可以从[[百度网盘]]( https://pan.baidu.com/s/1xlGanuW49gQE3hKvDkhulQ?pwd=c8m2 ) 提取码: c8m2 下载。
 
 ### 2.3 COVERAGE 
 - 情况：有9张图像(27张mask)分辨率不匹配
 - 解决方案：可以参考[[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections)。
 - 提示：
 真实图像：100，篡改图像：100
-处理后的数据集，可以从[百度网盘](通过百度网盘分享的文件：https://pan.baidu.com/s/1QWdvqoHUe972jV-jBc_7zQ?pwd=x4uh 
+处理后的数据集，可以从[[百度网盘]](通过百度网盘分享的文件：https://pan.baidu.com/s/1QWdvqoHUe972jV-jBc_7zQ?pwd=x4uh 
 ) 提取码：x4uh 下载。
 ### 2.4 NIST16 
 - 提示：
 真实图像：0，篡改图像：564
-处理后的数据集，可以从[百度网盘](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w 
+处理后的数据集，可以从[[百度网盘]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w 
 ) 提取码：yx7w 下载。
