@@ -57,6 +57,11 @@ Real image: 0, tampered image: 564
 The processed dataset can be downloaded  from 
 [[Baidu Netdisk]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w), extract code:  yx7w .
 
-## Star History
+## 3 Statistic of the repo
+
+
+Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=YanLi8858/Image-Manipulation-Dataset&type=Date)](https://star-history.com/#YanLi8858/Image-Manipulation-Dataset&Date)
+
+<a href="https://info.flagcounter.com/Fp4e"><img src="https://s01.flagcounter.com/count2/Fp4e/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
