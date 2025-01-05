@@ -1,6 +1,7 @@
 # Image Manipulated Detection Dataset Correction 
  ![Static Badge](https://img.shields.io/badge/python-3.7.0-blue)
  ![GitHub last commit](https://img.shields.io/github/last-commit/YanLi8858/Image-Manipulation-Dataset)
+![GitHub License](https://img.shields.io/github/license/YanLi8858/Image-Manipulation-Dataset)
  ![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset) 
 
 
@@ -15,12 +16,12 @@ CASIAv1, CASIAv2, COVERAGE, and NIST16 are public datasets for image tampering d
 ## 2 Dataset Processing Procedure
 
 ### 2.1 CASIAv1 
-- Case 1: The classification of some image manipulation categories is inaccurate.,e.g., in the image  `Sp_D_NND_A_nat0054_nat0054_0189.jpg`, the fourth letter 'D' means 'difference', indicating a splicing manipulation. It should be changed to `Sp_S_NND_A_nat0054_nat0054_0189.jpg`, where 'S' means 'same', indicating a copy-move manipulation. A total of 29 images had their manipulation types changed, and 4 images modified their names .  
+- Case 1: The classification of some image manipulation categories is inaccurate.,e.g., in the image  `[Sp_D_NND_A_nat0054_nat0054_0189.jpg]`, the fourth letter 'D' means 'difference', indicating a splicing manipulation. It should be changed to `[Sp_S_NND_A_nat0054_nat0054_0189.jpg]`, where 'S' means 'same', indicating a copy-move manipulation. A total of 29 images had their manipulation types changed, and 4 images modified their names .  
 - Solution:  
-Run `./CASIAv1/1_modify_name_casia1.py` to modify the image file names using the file ".\casia1groundtruth-master\CASIA 1.0 groundtruth\FileNameCorrection.xlsx" from the CASIAv1 mask repository.  
+Run `./CASIAv1/1_modify_name_casia1.py` to modify the image file names using the file "./casia1groundtruth-master/CASIA 1.0 groundtruth\FileNameCorrection.xlsx" from the CASIAv1 mask repository.  
 - Case 2: Some images in the "casia-dataset\CASIAv1\Sp" folder do not match corresponding mask names.  
 - Solution:  
-Run the `./CASIAv1/2_process_casia_1.py` script to find the unmatched images and save them to  ".\73 images process\CASIAv1_no_mask_imgs.txt".  
+Run the `./CASIAv1/2_process_casia_1.py` script to find the unmatched images and save them to  "./73 images process/CASIAv1_no_mask_imgs.txt".  
 Run `./CASIAv1/3_capture_and_modify_name_73.py` to modify the image names to match the mask names. A total of 73 images were processed.  
 - Case 3:  
 The image `Sp_D_NRN_A_sce0011_cha0011_0542.jpg` has no mask and should be deleted.  
@@ -33,8 +34,8 @@ The processed dataset can be downloaded from [[Baidu Netdisk]](https://pan.baidu
 
 - Case 1: The classification of some image manipulation categories is inaccurate. A total of 99 photos have incorrect transformation operation types, and 42 photos have incorrect names.  
 - Solution:  
-Run `modify_name_casia2.py` to modify the image file names using the file ".\casia2groundtruth-master\Notes\fileNamesCorrection.xlsx" from the CASIAv2 mask repository.  
-- Case 2: The resolutions of some images in the image folder  ".\casia-dataset\CASIAv2\Tp" are different from corresponding masks.  
+Run `modify_name_casia2.py` to modify the image file names using the file "./casia2groundtruth-master/Notes/fileNamesCorrection.xlsx" from the CASIAv2 mask repository.  
+- Case 2: The resolutions of some images in the image folder  "./casia-dataset/CASIAv2/Tp" are different from corresponding masks.  
 - Solution:  
 A total of 17 images need to modify their resolutions . For reference, see [[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections/blob/main/README-zh.md)  
 - Case 3:   
