@@ -5,7 +5,7 @@
  ![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset) 
 
 
-[[**English version**]](./README.md)  [[**Chinese version**]](./README-zh.md)  
+[[**English version**]](./README.md) | [[**Chinese version**]](./README-zh.md)  
 
 
 ## 1 Introduction
