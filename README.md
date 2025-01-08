@@ -60,7 +60,8 @@ A total of 17 images need to modify their resolutions . For reference, see [[git
   The processed dataset can be downloaded  from 
 [[Baidu Netdisk]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w), extract code:  yx7w .
 
-## 3 Statistic of the repo
+## 3  The click rate statistics of the GitHub repository
+If you feel that this repository is helpful to you, please remember to light up the stars 😁😁
 
 Star History
 
