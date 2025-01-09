@@ -46,10 +46,8 @@ https://pan.baidu.com/s/1iiIVKMuyNj75b8JFm8IQDA?pwd=pkb7 ) 提取码: pkb7 下�
 - 解决方案：可以参考[[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections)。
 - 提示：<br>
 真实图像：100，篡改图像：100 <br>
-处理后的数据集，可以从[[百度网盘]](通过百度网盘分享的文件：https://pan.baidu.com/s/1QWdvqoHUe972jV-jBc_7zQ?pwd=x4uh 
-) 提取码：x4uh 下载。
+处理后的数据集，可以从[[百度网盘]] (https://pan.baidu.com/s/1QWdvqoHUe972jV-jBc_7zQ?pwd=x4uh) 提取码：x4uh 下载。
 ### 2.4 NIST16 
 - 提示：<br>
 真实图像：0，篡改图像：564 <br>
-处理后的数据集，可以从[[百度网盘]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w 
-) 提取码：yx7w 下载。
+处理后的数据集，可以从[[百度网盘]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w ) 提取码：yx7w 下载。
