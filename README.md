@@ -2,6 +2,7 @@
  ![Static Badge](https://img.shields.io/badge/python-3.7.0-blue)
  ![GitHub last commit](https://img.shields.io/github/last-commit/YanLi8858/Image-Manipulation-Dataset)
 ![GitHub License](https://img.shields.io/github/license/YanLi8858/Image-Manipulation-Dataset)
+![visitors](https: // visitor - badge.laobi.icu / badge?page_id = YanLi8858.Image-Manipulation-Dataset)
  ![GitHub Repo stars](https://img.shields.io/github/stars/YanLi8858/Image-Manipulation-Dataset) 
 
 
