@@ -3,8 +3,8 @@ written by yan li
 september 19, 2024
 
 this function is mainly used to create data file,the content of file
-is 'image_path,mask,jpg_path,label', if image format is not jpg,
-compress image to jpg format and saved to specific dir.
+is 'image_path,mask,label',
+label: Truth:0, Copy_move:1
 
 """
 
@@ -30,9 +30,6 @@ if __name__ == '__main__':
     root_path = r'E:\tamper_dataset\COVERAGE'
     img_dir = os.path.join(root_path,'image')
     mask_dir = os.path.join(root_path,'mask')
-    jpg_dir = os.path.join(root_path,'jpg')
-    if not os.path.exists(jpg_dir):
-        os.makedirs(jpg_dir,exist_ok=True)
 
     # process tampering data
     img_list = []
@@ -43,10 +40,6 @@ if __name__ == '__main__':
     for file in glob.glob(img_dir+'/*t.tif'):
 
         file = os.path.basename(file)
-        # change image format to jpg
-        img = Image.open(os.path.join(img_dir,file))
-        img.save(jpg_dir+'/'+(file.split('.')[0]+".jpg"), quality=100, subsampling=0)
-        convert_cnt += 1
 
         maskfile = '{}forged.tif'.format(file.rsplit('.')[0][:-1])
         if not os.path.isfile(mask_dir+'/'+maskfile):
@@ -59,7 +52,6 @@ if __name__ == '__main__':
         if valid_image_shape(img_dir+'/'+file,mask_dir+'/'+maskfile):
             img_list.append(','.join(['image/'+file,
                                         'mask/'+maskfile,
-                                        'jpg/'+file.split('.')[0]+".jpg",
                                         label]))
         else:
             mismatch_cnt += 1
@@ -68,7 +60,6 @@ if __name__ == '__main__':
     print(f'total match tampering data is {len(img_list)}')
     print(f'mismatch count: {mismatch_cnt}')
     print(f'image does not have Mask count:{noMask}')
-    print(f'convert image format from tif to jpg count : {convert_cnt} ')
 
     # with open(os.path.join(root_path,'coverage_tamper.txt'),'w') as file:
     #     file.write('\n'.join(img_list)+'\n')
@@ -80,18 +71,12 @@ if __name__ == '__main__':
     for file in glob.glob(img_dir + '/*.tif'):
         file = os.path.basename(file)
         if file.split('.')[0][-1] is not 't':
-            # change image format to jpg
-            img = Image.open(os.path.join(img_dir, file))
-            img.save(jpg_dir + '/' + (file.split('.')[0] + ".jpg"), quality=100, subsampling=0)
-            convert_cnt += 1
             aut_img_list.append(','.join(['image/' + file,
                                             'none',
-                                            'jpg/' + file.split('.')[0] + ".jpg",
                                             label]))
 
 
     print(f'total match authentic data is {len(aut_img_list)}')
-    print(f'convert authentic image format from tif to jpg count : {convert_cnt} ')
 
     # with open(os.path.join(root_path,'coverage_authentic.txt'), 'w') as file:
     #     file.write('\n'.join(aut_img_list))
