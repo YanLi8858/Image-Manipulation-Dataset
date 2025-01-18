@@ -3,7 +3,7 @@ written by yan li
 September 19, 2024
 
 this function is mainly used to create data file,the content of file
-is 'image_path,mask,label',
+is 'image_path,mask,original image,label',
 label: # Truth:0, Copy_move:1, Splicing:2, removal:3
 
 """
@@ -53,7 +53,7 @@ if __name__ == '__main__':
                                  str(line[0].split('|')[basefile_index]),
                                   label])
 
-            # process manipulation data
+            # process manipulated data
             if line[0].split('|')[copy_index] == 'Y':
                 copy_cnt += 1
                 label = '1'
