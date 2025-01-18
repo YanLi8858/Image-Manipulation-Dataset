@@ -3,8 +3,7 @@ written by yan li
 September 19, 2024
 
 this function is mainly used to create data file,the content of file
-is 'image_path,mask,jpg_path,label', if image format is not jpg,
-compress image to jpg format and saved to specific dir.
+is 'image_path,mask,label',
 label: # Truth:0, Copy_move:1, Splicing:2, removal:3
 
 """
