@@ -57,7 +57,7 @@ A total of 17 images need to modify their resolutions . For reference, see [[git
 
 ### 2.4 NIST16 
 - Note:<br>
-  Real image: 0, tampered image: 564<br>
+  tampered image: 564<br>
   The processed dataset can be downloaded  from 
 [[Baidu Netdisk]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w), extract code:  yx7w .
 
