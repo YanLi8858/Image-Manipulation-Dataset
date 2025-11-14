@@ -40,7 +40,7 @@ https://pan.baidu.com/s/1iiIVKMuyNj75b8JFm8IQDA?pwd=pkb7 ) 提取码: pkb7 下�
 `Tp_D_NNN_M_N_nat10103_pla10110_10116.tif`<br>
 `Tp_D_NNN_S_N_nat00042_nat00042_00961.tif`<br>
 基于 @Ephemeral-rose [CASIAv2 Case 3 Solution #2
-](https://github.com/YanLi8858/Image-Manipulation-Dataset/issues/2#issue-2893521488), 我们可以避免删除文件，而是在下载完 `CASIAv2.zip`文件夹后修改相应文件名称 <br>
+](https://github.com/YanLi8858/Image-Manipulation-Dataset/issues/2#issue-2893521488)的提示, 我们可以避免删除文件，而是在下载完 `CASIAv2.zip`文件夹后修改相应文件名称 <br>
 `[Tp_D_NNN_M_B_art00037_nat10103_10108.tif -> Tp_D_NNN_M_B_art00037_txt10112_10108.tif]`<br>
 `[Tp_D_NNN_M_N_nat10103_pla10110_10116.tif -> Tp_D_NNN_M_N_pla10110_nat10103_10116.tif]`<br>
 `[Tp_D_NNN_S_N_nat00042_nat00042_00961.tif -> Tp_D_NNN_S_N_nat00042_nat00034_00961.tif]`<br>
