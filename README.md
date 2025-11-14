@@ -39,7 +39,7 @@ Run `modify_name_casia2.py` to modify the image file names using the file "./cas
 - Case 2: The resolutions of some images in the image folder  "./casia-dataset/CASIAv2/Tp" are different from corresponding masks.  
 - Solution:  
 A total of 17 images need to modify their resolutions . For reference, see [[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections/blob/main/README-zh.md)  
-- Case 3: three image without mask  
+- Case 3: Three images without mask
 `[Tp_D_NNN_M_B_art00037_nat10103_10108.tif]` <br>
 `[Tp_D_NNN_M_N_nat10103_pla10110_10116.tif]` <br>
 `[Tp_D_NNN_S_N_nat00042_nat00042_00961.tif]` <br>
