@@ -35,12 +35,18 @@ https://pan.baidu.com/s/1iiIVKMuyNj75b8JFm8IQDA?pwd=pkb7 ) 提取码: pkb7 下�
 - 情况2：图像文件夹中的".\casia-dataset\CASIAv2\Tp"的部分图像分辨率与对应名称的掩码分辨率不同。
 - 解决方案：
 一共17张图像需要修改分辨率，参考[[github]](https://github.com/SunnyHaze/IML-Dataset-Corrections/blob/main/README-zh.md)
-- 情况3：<br>
+- 情况3：三张图片没有掩码<br>
 `Tp_D_NNN_M_B_art00037_nat10103_10108.tif`<br>
 `Tp_D_NNN_M_N_nat10103_pla10110_10116.tif`<br>
-`Tp_D_NNN_S_N_nat00042_nat00042_00961.tif`<br>没有掩码，可以删除这些图像。
+`Tp_D_NNN_S_N_nat00042_nat00042_00961.tif`<br>
+基于 @Ephemeral-rose [CASIAv2 Case 3 Solution #2
+](https://github.com/YanLi8858/Image-Manipulation-Dataset/issues/2#issue-2893521488), 我们可以避免删除文件，而是在下载完 `CASIAv2.zip`文件夹后修改相应文件名称 <br>
+`[Tp_D_NNN_M_B_art00037_nat10103_10108.tif -> Tp_D_NNN_M_B_art00037_txt10112_10108.tif]`<br>
+`[Tp_D_NNN_M_N_nat10103_pla10110_10116.tif -> Tp_D_NNN_M_N_pla10110_nat10103_10116.tif]`<br>
+`[Tp_D_NNN_S_N_nat00042_nat00042_00961.tif -> Tp_D_NNN_S_N_nat00042_nat00034_00961.tif]`<br>
+
 - 提示：<br>
-真实图像：7491，篡改图像：5123(其中3张图像没有掩码)。<br>
+真实图像：7491，篡改图像：5123 <br>
 处理后的数据集，可以从[[百度网盘]]( https://pan.baidu.com/s/1xlGanuW49gQE3hKvDkhulQ?pwd=c8m2 ) 提取码: c8m2 下载。
 
 ### 2.3 COVERAGE 
