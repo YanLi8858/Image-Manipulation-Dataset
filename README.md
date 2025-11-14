@@ -43,7 +43,6 @@ A total of 17 images need to modify their resolutions . For reference, see [[git
 `[Tp_D_NNN_M_B_art00037_nat10103_10108.tif]` <br>
 `[Tp_D_NNN_M_N_nat10103_pla10110_10116.tif]` <br>
 `[Tp_D_NNN_S_N_nat00042_nat00042_00961.tif]` <br>
-
 Based on the suggestion from @Ephemeral-rose [CASIAv2 Case 3 Solution #2
 ](https://github.com/YanLi8858/Image-Manipulation-Dataset/issues/2#issue-2893521488), we can avoid deleting the aforementioned three files and instead modify their filenames after download the `CASIAv2.zip` <br>
 `[Tp_D_NNN_M_B_art00037_nat10103_10108.tif -> Tp_D_NNN_M_B_art00037_txt10112_10108.tif]`<br>
