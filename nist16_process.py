@@ -98,7 +98,7 @@ if __name__ == '__main__':
             
     # Modified in May, 2026
     src_data = set([d[0] for d in org_list])
-    print('Deduplicate original image: ',len(src_data))    #56
+    print('Deduplicate original image: ',len(src_data))    #68
     new_org_list = [[e,'None','0'] for e in src_data]
     
     '''
