@@ -20,6 +20,7 @@ if __name__ == '__main__':
 
     rem_cnt,spli_cnt,copy_cnt = 0,0,0
     rem_list,spli_list,copy_list = [],[],[]
+    org_list = []
     label = '0'
     with open(mani_path,'r') as file:
         data = csv.reader(file)
@@ -43,6 +44,8 @@ if __name__ == '__main__':
                                  str(line[0].split('|')[mask_index].replace('manipulation','removal')),
                                  str(line[0].split('|')[basefile_index]),
                                  label])
+                if os.path.isfile(root_path+'/'+str(line[0].split('|')[basefile_index])):
+                    org_list.append([str(line[0].split('|')[basefile_index])])
 
             # process splicing data
             if line[0].split('|')[splice_index] == 'Y':
@@ -52,6 +55,8 @@ if __name__ == '__main__':
                                  str(line[0].split('|')[mask_index]),
                                  str(line[0].split('|')[basefile_index]),
                                   label])
+                if os.path.isfile(root_path+'/'+str(line[0].split('|')[basefile_index])):
+                    org_list.append([str(line[0].split('|')[basefile_index])])
 
             # process manipulated data
             if line[0].split('|')[copy_index] == 'Y':
@@ -61,6 +66,8 @@ if __name__ == '__main__':
                                  str(line[0].split('|')[mask_index]),
                                  str(line[0].split('|')[basefile_index]),
                                     label])
+                if os.path.isfile(root_path+'/'+str(line[0].split('|')[basefile_index])):
+                    org_list.append([str(line[0].split('|')[basefile_index])])
 
     print(f'removal data count is :{rem_cnt}')
     print(f'splicing data count is :{spli_cnt}')
@@ -88,8 +95,11 @@ if __name__ == '__main__':
     with open(os.path.join(root_path, 'NIST16_pretrain.txt'), 'w') as file:
         for elem in total_list:
                 file.write(','.join(elem)+'\n')
-
-    
+            
+    # Modified in May, 2026
+    src_data = set([d[0] for d in org_list])
+    print('Deduplicate original image: ',len(src_data))    #56
+    new_org_list = [[e,'None','0'] for e in src_data]
     
     '''
     Check if two datasets have duplicated data
