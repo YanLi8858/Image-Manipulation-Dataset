@@ -66,8 +66,7 @@ Based on the suggestion from @Ephemeral-rose [CASIAv2 Case 3 Solution #2
   tampered image: 564<br>
   The processed dataset can be downloaded  from 
 [[Baidu Netdisk]](https://pan.baidu.com/s/1XMPZnnrO2lnyMhfvoGqdyA?pwd=yx7w), extract code:  yx7w .
-# ----------- Update ----------- #
-Note that the number of original images corresponding to all operation types is 68 (May, 2026).
+- In NIST16, the number of original images corresponding to all manipulation types is 68 (May, 2026).
 
 ## 3  The click rate statistics of the GitHub repository
 If you feel that this repository is helpful to you, please remember to light up the stars 😁😁
